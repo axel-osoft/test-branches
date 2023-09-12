@@ -12,7 +12,7 @@ d = c / b
 
 e = a + c  # should trigger rule Operators should be used on compatible types
 
-foo = 1 == "1"  # Noncompliant. Always False.
+# foo = "1" == "1"  # Noncompliant. Always False.
 
 
 print("We're almost done")
